@@ -17,7 +17,6 @@ void fSubTrytes(T27 *state);
 void fShiftRows(T27 *state);
 void fShiftLanes(T27 *state);
 void fAddColumnParity(T27 *state);
-void fPrintRoundConstants();
 void fAddRoundConstant(T27 *state, int round);
 void fTroikaPermutation(T27 *state, unsigned long long num_rounds);
 void fTroikaNullifyState(T27* state);
