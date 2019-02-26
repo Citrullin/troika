@@ -2,7 +2,7 @@ SRC_DIR = src
 
 BUILD_DIR = build
 
-OBJ = $(SRC_OBJ)
+OBJ = ftroika troika
 
 CFLAGS = -I$(SRC_DIR)
 
