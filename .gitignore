@@ -52,7 +52,7 @@ Mkfile.old
 dkms.conf
 
 #CMake
-Makefile
+troika-library.cbp
 CMakeCache.txt
 cmake_install.cmake
 CMakeFiles

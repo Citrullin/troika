@@ -6,8 +6,8 @@
 //  Copyright © 2018 he. All rights reserved.
 //
 
-#include "troika.h"
-#include "ftroika.h"
+#include "src/troika.h"
+#include "src/ftroika.h"
 
 #define TRITMAX (729)
 
