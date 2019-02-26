@@ -6,7 +6,7 @@ OBJ = ftroika troika
 
 CFLAGS = -I$(SRC_DIR)
 
-$(SRC_OBJ):%:$(SRC_DIR)/%.c
+$(OBJ):%:$(SRC_DIR)/%.c
 	$(CC) -c -o $(BUILD_DIR)/$@.o $< $(CFLAGS)
 
 lib: $(OBJ)
